@@ -1,0 +1,67 @@
+.center {
+        height: 200px;
+        position: relative;
+        margin: 0;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
+
+li {
+    display: inline;
+    padding-right: 5px;
+}
+
+.Left {
+    float: left;
+}
+
+.Right {
+    float: right;
+}
+
+.search {
+        height: 200px;
+        position: relative;
+        margin: 0;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+
+#search {
+    box-sizing: content-box;
+    width: 600px;
+    height: 300px;
+}
+
+.Buttons {
+    height: 200px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+    font-size: 16px;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
